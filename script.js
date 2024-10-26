@@ -55,7 +55,7 @@ document.getElementById('previewBtn').addEventListener('click', function () {
         // Apply editing tools
         applyEditingTools(svgElement);
     } else {
-        previewArea.innerText = 'Invalid SVG code!';
+        previewArea.innerText = 'Invalid SVG code! If you believe the code is correct, please ensure to remove any comments or extraneous elements. Only the SVG tag and its contents should be included.';
     }
 });
 
